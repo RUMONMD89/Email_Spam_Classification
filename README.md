@@ -27,7 +27,7 @@ tfidf = from sklearn.feature_extraction.text import TfidfVectorizer
 minmax_scaler = from sklearn.preprocessing import MinMaxScaler
 ここでTfidfVectorizerでは最大特徴量（max_features）を3000に設定して分析行い、これらを適用して、それぞれのアルゴリズムで分析を行った結果は以下の通りです。
 
-<img src="pictures/algorithm_max_features_scaling_df.png" height="400px" width ="550px">　
+<img src="pictures/algorithm_max_features_scaling_df..png" height="400px" width ="550px">　
 
 ### "Please wait, the project GIF file is loading..." ###
 <img src="Email_sms_spam_Classification/Email_spam_Classifier1st_part-.gif" width="700px">
