@@ -29,6 +29,17 @@ minmax_scaler = from sklearn.preprocessing import MinMaxScaler
 
 <img src="pictures/algorithm_max_features_scaling_df..png" height="400px" width ="550px">　
 
+総合的に分析した結果、**MinMaxScaler**よりも、**TfidfVectorizer**（最大特徴量を3000に設定）を使用した場合の方が、より優れた結果が得られました。特に、Naive Bayesアルゴリズムの一つである**MultinomialNB**が最も優れた性能を示しました。
+
+以下は、分析結果の要約です：
+
+- 初期段階のMultinomialNBの精度（accuracy）は**0.959381**でした。
+- **TfidfVectorizer**（max_features=3000）を使用して分析した結果：
+  - **精度（accuracy）**: **0.970986**
+  - **適合率（precision）**: **1.0**
+  
+これにより、**TfidfVectorizer**を活用することで、テキストデータの特徴をより効果的に捉えられることが確認され、**MultinomialNB**が特にこの課題において有効であると結論づけられました。
+
 ### "Please wait, the project GIF file is loading..." ###
 <img src="Email_sms_spam_Classification/Email_spam_Classifier1st_part-.gif" width="700px">
 <img src ="Email_sms_spam_Classification/Email_spam_Classifier2nd_part-.gif" width="700px"
