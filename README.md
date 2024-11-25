@@ -22,6 +22,11 @@ Email-spam-classificationとは、電子メールをスパム（迷惑メール�
 
 <img src="pictures/Screenshot 2024-11-18 193733.png" height="400px" width ="550px">　
 
+上記の結果から、Naive Bayes（NB）、K近傍法（KNN）、ランダムフォレスト（RF）の適合率（precision）はいずれも1.0と非常に優れていました。一方で、モデルのさらなる改善や精度（accuracy）の向上を目指し、新たな手法として以下を試みました。
+
+tfidf = from sklearn.feature_extraction.text import TfidfVectorizer
+minmax_scaler = from sklearn.preprocessing import MinMaxScaler
+ここでTfidfVectorizerでは最大特徴量（max_features）を3000に設定して分析行い、これらを適用して、それぞれのアルゴリズムで分析を行った結果は以下の通りです。
 
 
 ### "Please wait, the project GIF file is loading..." ###
