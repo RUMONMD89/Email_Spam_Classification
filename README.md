@@ -5,6 +5,18 @@ Email-spam-classificationとは、電子メールをスパム（迷惑メール�
 この課題では、最初にNaive Bayesアルゴリズム（GaussianNB、MultinomialNB、BernoulliNB）の3つを使用し、それぞれの**精度（accuracy）**と**適合率（precision）**を確認しました。その結果、MultinomialNBが最も良い性能を示し、**精度は0.9709864603481625**、**適合率は1.0**でした。
 
 さらにモデルの精度を向上させるため、機械学習のトップ11アルゴリズムを使って追加の分析を行いました。
+lr = LogisticRegression(solver='liblinear', penalty='l1') 
+svc = SVC(kernel = 'sigmoid',gamma =1.0)
+mnb = MultinomialNB()
+dtc = DecisionTreeClassifier(max_depth = 5)
+knc = KNeighborsClassifier()
+rfc = RandomForestClassifier(n_estimators = 50, random_state = 2)
+abc = AdaBoostClassifier(n_estimators = 50, random_state = 2)
+bc = BaggingClassifier(n_estimators=50, random_state=2)
+etc = ExtraTreesClassifier(n_estimators = 50, random_state = 2)
+gbdt= GradientBoostingClassifier(n_estimators = 50, random_state = 2)
+XGBoost = XGBClassifier(n_estimators=50, random_state=2)
+
 
 ### "Please wait, the project GIF file is loading..." ###
 <img src="Email_sms_spam_Classification/Email_spam_Classifier1st_part-.gif" width="700px">
