@@ -8,6 +8,18 @@ Email-spam-classificationとは、電子メールをスパム（迷惑メール�
 
 さらにモデルの精度を向上させるため、機械学習のトップ11アルゴリズムを使って追加の分析を行いました。
 
+### LR = from sklearn.linear_model import LogisticRegression
+### SVC = from sklearn.svm import SVC
+### NB = from sklearn.naive_bayes import MultinomialNB
+### DT = from sklearn.tree import DecisionTreeClassifier
+### KN = rom sklearn.neighbors import KNeighborsClassifier
+### RF = from sklearn.ensemble import RandomForestClassifier
+### AdaBoost = from sklearn.ensemble import AdaBoostClassifier
+### BgC = from sklearn.ensemble import BaggingClassifier
+### ETC = from sklearn.ensemble import ExtraTreesClassifier
+### GBDT = from sklearn.ensemble import GradientBoostingClassifier
+### xgb = from xgboost import XGBClassifier
+
 <img src="pictures/Screenshot 2024-11-18 193733.png" height="400px" width ="550px">　
 
 
