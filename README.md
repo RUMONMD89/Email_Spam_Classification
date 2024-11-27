@@ -44,4 +44,4 @@ minmax_scaler = from sklearn.preprocessing import MinMaxScaler
 <img src="Email_sms_spam_Classification/Email_spam_Classifier1st_part-.gif" width="700px">
 <img src ="Email_sms_spam_Classification/Email_spam_Classifier2nd_part-.gif" width="700px"
 
-### Thanks for watching.... ###
+### Thanks for watching..... ###
