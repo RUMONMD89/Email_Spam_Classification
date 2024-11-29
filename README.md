@@ -40,7 +40,7 @@ minmax_scaler = from sklearn.preprocessing import MinMaxScaler
   
 これにより、**TfidfVectorizer**を活用することで、テキストデータの特徴をより効果的に捉えられることが確認され、**MultinomialNB**が特にこの課題において有効であると結論づけられました。
 
-### "Please wait, the project GIF file is loading..." ###
+### "Please wait, the project GIF file is loading...." ###
 <img src="Email_sms_spam_Classification/Email_spam_Classifier1st_part-.gif" width="700px">
 <img src ="Email_sms_spam_Classification/Email_spam_Classifier2nd_part-.gif" width="700px"
 
